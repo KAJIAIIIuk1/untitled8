@@ -20,8 +20,8 @@ public class Main {
             System.out.println("установите облегкченную версию приложения для андройд по ссылке");
 
         }
-        int leapYear = 2029;
-        if (leapYear == 2021 || leapYear == 2025 || leapYear == 2029) {
+        int leapYear = 2024;
+        if (leapYear % 4 == 0  && leapYear % 100 != 0  || leapYear % 400 == 0) {
             System.out.println("год является високосным");
         } else {
             System.out.println("год не является високосным");
